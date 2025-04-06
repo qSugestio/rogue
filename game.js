@@ -244,15 +244,19 @@ $(function () {
       dy = 0;
     switch (e.key) {
       case 'a':
+      case 'ф':
         dx = -1;
         break;
       case 'd':
+      case 'в':
         dx = 1;
         break;
       case 'w':
+      case 'ц':
         dy = -1;
         break;
       case 's':
+      case 'ы':
         dy = 1;
         break;
       case ' ':
